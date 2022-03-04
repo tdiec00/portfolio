@@ -3,13 +3,13 @@ import Resume from "../images/Resume.pdf"
 
 const Navbar = () => {
   return (
-    <div className="h-14 flex justify-center items-center">
-      <Link to="/" className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
+    <div className="h-14 flex justify-center items-center ">
+      <a href="/#home" className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
         ~ CD Home
-      </Link>
-      <Link to="/" className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
+      </a>
+      <a href="/#project" className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
         ~ CD Projects
-      </Link>
+      </a>
       <Link to="/" className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
         ~ CD Skills
       </Link>
