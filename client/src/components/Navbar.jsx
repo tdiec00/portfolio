@@ -1,24 +1,23 @@
-import {Link} from "react-router-dom"
 import Resume from "../images/Resume.pdf"
 
 const Navbar = () => {
   return (
-    <div className="h-14 flex justify-center items-center ">
-      <a href="/#home" className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
+    <div className="z-10 h-14 flex justify-center items-center bg-blackbg fixed top-0 opacity-80 w-full">
+      <a href="#home" className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
         ~ CD Home
       </a>
-      <a href="/#project" className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
+      <a href="#project" className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
         ~ CD Projects
       </a>
-      <Link to="/" className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
+      <a href="#skills" className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
         ~ CD Skills
-      </Link>
-      <Link to="/" className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
+      </a>
+      <a href="#about" className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
         ~ CD About-Me
-      </Link>
-      <Link to="/" className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
+      </a>
+      <a href="#contact" className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
         ~ CD Contact
-      </Link>
+      </a>
       <a className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400" href={Resume} target="_blank" rel="noreferrer">
         ~ CD Resume
       </a>

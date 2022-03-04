@@ -4,7 +4,7 @@ import LandingPage from "./Screens/landingPage/LandingPage"
 
 function App() {
   return (
-    <div className="text-center  bg-blackbg ... h-screen bg-opacity-95">
+    <div className="text-center bg-iTerm w-screen z-0 ">
       <Navbar />
       <div>
         <Routes>
