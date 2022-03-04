@@ -1,6 +1,6 @@
-import Resume from "../images/Resume.pdf"
+import Resume from "../../images/Resume.pdf"
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <div className="z-10 h-14 flex justify-center items-center bg-blackbg fixed top-0 opacity-80 w-full">
       <a href="#home" className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
@@ -15,9 +15,9 @@ const Navbar = () => {
       <a href="#about" className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
         ~ CD About-Me
       </a>
-      <a href="#contact" className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
+      <button onClick={() => props.setToggleModal((prevToggle) => !prevToggle)} className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
         ~ CD Contact
-      </a>
+      </button>
       <a className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400" href={Resume} target="_blank" rel="noreferrer">
         ~ CD Resume
       </a>

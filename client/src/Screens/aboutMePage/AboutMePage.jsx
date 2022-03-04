@@ -2,7 +2,7 @@ import React from "react"
 
 export default function AboutMePage() {
   return (
-    <div id="about" className=" text-white text-xl text-center flex flex-col justify-center h-96">
+    <div id="about" className=" text-white text-xl text-center flex flex-col justify-center h-80">
       <h1 className="text-4xl ">About Me</h1>
       <div className=" flex flex-wrap break-normal">
         <p className="break-normal mx-44">

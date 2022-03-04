@@ -1,5 +1,3 @@
-import React from "react"
-
 export default function ProjectPage() {
   return (
     <div id="project" className=" text-white  text-center w-screen flex flex-col justify-center text-2xl">

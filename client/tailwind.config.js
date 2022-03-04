@@ -5,6 +5,7 @@ module.exports = {
       colors: {
         // Configure your color palette here
         blackbg: "#010101",
+        eee: "#eeeee",
       },
       backgroundImage: {
         iTerm: "url('../src/images/iterm-image.jpeg')",

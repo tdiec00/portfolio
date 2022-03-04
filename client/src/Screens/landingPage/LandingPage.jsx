@@ -1,11 +1,12 @@
-import "animate.css"
-import "./landingPage.css"
 import ProjectPage from "../projectPage/ProjectPage"
 import SkillsPage from "../skillsPage/SkillsPage"
 import AboutMePage from "../aboutMePage/AboutMePage"
-import image from "../../images/image.jpeg"
+import ContactPage from "../contactPage/ContactPage"
+// import image from "../../images/image.jpeg"
+import "animate.css"
+import "./landingPage.css"
 
-export default function LandingPage() {
+export default function LandingPage(props) {
   return (
     <div id="home" className="text-center  ">
       <div className="flex flex-row w-screen ">
@@ -25,6 +26,7 @@ export default function LandingPage() {
       <ProjectPage />
       <SkillsPage />
       <AboutMePage />
+      <ContactPage setToggleModal={props.setToggleModal} toggleModal={props.toggleModal} />
     </div>
   )
 }
