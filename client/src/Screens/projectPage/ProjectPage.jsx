@@ -2,6 +2,7 @@ import ProjectContainer from "../../components/projectContainer/ProjectContainer
 import CouchWorking from "../../components/projects/CouchWorking"
 import WhatsThePrice from "../../components/projects/WhatsThePrice"
 import BrewMaster from "../../components/projects/BrewMaster"
+import AthleticPerformanceIndex from "../../components/projects/AthleticPerformanceIndex"
 import couch from "../../images/couch.png"
 import supermarket from "../../images/supermarket.jpeg"
 import exercises from "../../images/exercises.png"
