@@ -2,6 +2,7 @@ import ProjectPage from "../projectPage/ProjectPage"
 import SkillsPage from "../skillsPage/SkillsPage"
 import AboutMePage from "../aboutMePage/AboutMePage"
 import Modal from "../../components/contactInput/ContactInput"
+import ContactInput from "../../components/contactInput/ContactInput"
 import "animate.css"
 import "./landingPage.css"
 
@@ -9,7 +10,7 @@ export default function LandingPage(props) {
   return (
     <div id="home" className="text-center  ">
       <div className="flex flex-row w-screen ">
-        <div className="m-5 h-96 text-left">
+        <div className="m-5 h-72 text-left">
           <h1 className="font-medium text-white font-mono  ... text-4xl   opacity-100 ml-2 pt-20">~Welcome to iTrung</h1>
           <h1 className="text-white text-2xl mt-5 ml-2">~cd portolio</h1>
           <h1 className="text-white text-2xl mt-2 ml-2">~npx create-react-app trung-portfolio</h1>
@@ -22,7 +23,14 @@ export default function LandingPage(props) {
       <ProjectPage />
       <SkillsPage />
       <AboutMePage />
-      <Modal setShow={props.setShow} show={props.show} />
+      <Modal
+        onClose={() => {
+          props.setShow(false)
+        }}
+        show={props.show}
+        setShow={props.setShow}
+        title="Contact Me"
+      ></Modal>
     </div>
   )
 }

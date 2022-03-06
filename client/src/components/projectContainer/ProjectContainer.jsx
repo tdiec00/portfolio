@@ -19,6 +19,7 @@ export default function ProjectContainer(props) {
           }}
           show={show}
           link={props.link}
+          title={props.title}
         >
           <div>{props.children}</div>
         </Modal>

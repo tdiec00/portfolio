@@ -10,6 +10,9 @@ module.exports = {
       backgroundImage: {
         iTerm: "url('../src/images/iterm-image.jpeg')",
       },
+      height: {
+        128: "30rem",
+      },
     },
   },
   plugins: [],
