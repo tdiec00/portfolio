@@ -15,7 +15,7 @@ const Navbar = (props) => {
       <a href="#about" className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
         ~ CD About-Me
       </a>
-      <button onClick={() => props.setToggleModal((prevToggle) => !prevToggle)} className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
+      <button onClick={() => props.setShow(true)} className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400">
         ~ CD Contact
       </button>
       <a className="font-medium text-white font-mono text-xl ... p-5 hover:scale-125 hover:text-stone-400" href={Resume} target="_blank" rel="noreferrer">

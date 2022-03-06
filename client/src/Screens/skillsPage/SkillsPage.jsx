@@ -4,8 +4,8 @@ export default function SkillsPage() {
       <h1 className="text-4xl mb-5">Skills</h1>
       <div className=" flex flex-wrap break-normal">
         <p className="break-normal mx-80">
-          JavaScript // React // Ruby // Rails // MongoDB // Mongoose // Express // PostgreSQL // SQL // HTML // CSS // Tailwind // BoostStrap // StyledComponents // Github // Heroku // Netlify //
-          Node
+          JavaScript // React // Ruby // Rails // MongoDB // Mongoose // Express // PostgreSQL // SQL // HTML // CSS // Tailwind // BoostStrap // React Styled Components // Github // Heroku // Netlify
+          // Node
         </p>
       </div>
     </div>

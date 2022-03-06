@@ -1,7 +1,6 @@
 import ProjectPage from "../projectPage/ProjectPage"
 import SkillsPage from "../skillsPage/SkillsPage"
 import AboutMePage from "../aboutMePage/AboutMePage"
-import Modal from "../../components/modal/Modal"
 import ContactInput from "../../components/contactInput/ContactInput"
 import "animate.css"
 import "./landingPage.css"
@@ -23,9 +22,10 @@ export default function LandingPage(props) {
       <ProjectPage />
       <SkillsPage />
       <AboutMePage />
-      <Modal title="Contact Me" setToggleModal={props.setToggleModal} toggleModal={props.toggleModal}>
+      {/* <Modal title="Contact Me" setToggleModal={props.setToggleModal} toggleModal={props.toggleModal}>
         <ContactInput />
-      </Modal>
+      </Modal> */}
+      <ContactInput setShow={props.setShow} show={props.show} />
     </div>
   )
 }

@@ -1,12 +1,20 @@
-import React from "react"
+import Modal from "../modal/Modal"
 
-export default function ContactInput() {
+export default function ContactInput(props) {
   return (
     <div className="h-3/5">
-      <form>
-        <input />
-        <input />
-      </form>
+      <Modal
+        onClose={() => {
+          props.setShow(false)
+        }}
+        show={props.show}
+        title="Contact me"
+      >
+        <form>
+          <input />
+          <input />
+        </form>
+      </Modal>
     </div>
   )
 }
