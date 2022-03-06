@@ -1,8 +1,8 @@
 import ProjectPage from "../projectPage/ProjectPage"
 import SkillsPage from "../skillsPage/SkillsPage"
 import AboutMePage from "../aboutMePage/AboutMePage"
-import ContactPage from "../contactPage/ContactPage"
-// import image from "../../images/image.jpeg"
+import Modal from "../../components/modal/Modal"
+import ContactInput from "../../components/contactInput/ContactInput"
 import "animate.css"
 import "./landingPage.css"
 
@@ -11,7 +11,7 @@ export default function LandingPage(props) {
     <div id="home" className="text-center  ">
       <div className="flex flex-row w-screen ">
         <div className="m-5 h-96 text-left">
-          <h1 className="font-medium text-white font-mono  ... text-4xl   opacity-100 pt-3 ml-2 pt-20">~Welcome to iTrung</h1>
+          <h1 className="font-medium text-white font-mono  ... text-4xl   opacity-100 ml-2 pt-20">~Welcome to iTrung</h1>
           <h1 className="text-white text-2xl mt-5 ml-2">~cd portolio</h1>
           <h1 className="text-white text-2xl mt-2 ml-2">~npx create-react-app trung-portfolio</h1>
           <div className="flex ... content-center items-center">
@@ -19,14 +19,13 @@ export default function LandingPage(props) {
             <div className="bg-white w-1.5 h-6 ml-1.5 animate__animated animate__flash  animate__infinite	infinite mt-2"></div>
           </div>
         </div>
-        {/* <div>
-          <img className="mt-24 h-40 w-50  ml-20 rounded-full" src={image} alt="selfie"></img>
-        </div> */}
       </div>
       <ProjectPage />
       <SkillsPage />
       <AboutMePage />
-      <ContactPage setToggleModal={props.setToggleModal} toggleModal={props.toggleModal} />
+      <Modal title="Contact Me" setToggleModal={props.setToggleModal} toggleModal={props.toggleModal}>
+        <ContactInput />
+      </Modal>
     </div>
   )
 }

@@ -7,7 +7,7 @@ export default function ProjectPage() {
           <a href="https://trungs-supermarket.netlify.app/">
             <div>
               <p className="pb-2">Whats the Price</p>
-              <p className="text-sm ">
+              <p className="text-sm font-bold tracking-wider">
                 A full stack cash register/shopping cart app where owners/employees are able to to add and manage grocery products. Customers are able to add, delete, and check out products from their
                 shopping cart.
               </p>
@@ -18,7 +18,7 @@ export default function ProjectPage() {
           <a href="https://trungs-supermarket.netlify.app/">
             <div>
               <p className="pb-2">Whats the Price</p>
-              <p className="text-sm ">
+              <p className="text-sm font-bold tracking-wider">
                 A full stack cash register/shopping cart app where owners/employees are able to to add and manage grocery products. Customers are able to add, delete, and check out products from their
                 shopping cart.
               </p>
@@ -29,7 +29,7 @@ export default function ProjectPage() {
           <a href="https://trungs-supermarket.netlify.app/">
             <div>
               <p className="pb-2">Whats the Price</p>
-              <p className="text-sm ">
+              <p className="text-sm font-bold tracking-wider">
                 A full stack cash register/shopping cart app where owners/employees are able to to add and manage grocery products. Customers are able to add, delete, and check out products from their
                 shopping cart.
               </p>
@@ -40,7 +40,7 @@ export default function ProjectPage() {
           <a href="https://trungs-supermarket.netlify.app/">
             <div>
               <p className="pb-2">Whats the Price</p>
-              <p className="text-sm ">
+              <p className="text-sm font-bold tracking-wider">
                 A full stack cash register/shopping cart app where owners/employees are able to to add and manage grocery products. Customers are able to add, delete, and check out products from their
                 shopping cart.
               </p>
