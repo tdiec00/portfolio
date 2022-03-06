@@ -3,6 +3,7 @@ import AthleticPerformanceIndex from "../../components/projects/AthleticPerforma
 import CouchWorking from "../../components/projects/CouchWorking"
 import WhatsThePrice from "../../components/projects/WhatsThePrice"
 import BrewMaster from "../../components/projects/BrewMaster"
+import couch from "../../images/couch.png"
 
 export default function ProjectPage() {
   return (
@@ -12,7 +13,7 @@ export default function ProjectPage() {
         <ProjectContainer title="What's the Price" link="https://trungs-supermarket.netlify.app/">
           <WhatsThePrice />
         </ProjectContainer>
-        <ProjectContainer title="Couch Working" link="https://couchworking.netlify.app/">
+        <ProjectContainer title="Couch Working" link="https://couchworking.netlify.app/" image={couch} alt="black and white couch">
           <CouchWorking />
         </ProjectContainer>
         <ProjectContainer title="Athlethic Performance Index" link="https://athletic-performance-index.netlify.app/">
