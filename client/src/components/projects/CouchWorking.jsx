@@ -1,3 +1,3 @@
 export default function CouchWorking() {
-  return <div>CouchWorking</div>
+  return <div></div>
 }
