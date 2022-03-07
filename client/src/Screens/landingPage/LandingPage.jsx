@@ -7,7 +7,7 @@ import "./landingPage.css"
 
 export default function LandingPage(props) {
   return (
-    <div id="home" className="text-center  ">
+    <div id="home" className="text-center ">
       <div className="flex flex-row w-screen ">
         <div className="m-5 h-72 text-left">
           <h1 className="font-medium text-white font-mono  ... text-2xl md:text-4xl   opacity-100 ml-2 pt-20">~Welcome to iTrung</h1>

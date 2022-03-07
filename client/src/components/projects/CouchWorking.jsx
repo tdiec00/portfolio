@@ -1,6 +1,6 @@
 export default function CouchWorking() {
   return (
-    <div className="text-lg px-10">
+    <div className="text-base md:text-lg px-10">
       <p className="mt-10">
         CouchWorking is the AirBNB for private Coworking spaces: are your tired of working home alone and have a spare desk in your flat? Share it on CouchWorking and meet like-minded people from
         around the world! If you'd like, you can even offer your guest a place to stay!
