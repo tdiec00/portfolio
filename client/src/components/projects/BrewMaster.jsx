@@ -1,7 +1,7 @@
 export default function BrewMaster() {
   return (
-    <div className="text-base md:text-lg px-10">
-      <p className="mt-10">
+    <div className="text-base md:text-lg md:px-10">
+      <p className="md:mt-10">
         A gorcery store shopping application where customers are able to add items to and check out items from their cart. Admins have the ability to add and edit products in the grocery store
         database.
       </p>
