@@ -2,7 +2,6 @@ import ProjectPage from "../projectPage/ProjectPage"
 import SkillsPage from "../skillsPage/SkillsPage"
 import AboutMePage from "../aboutMePage/AboutMePage"
 import Modal from "../../components/contactInput/ContactInput"
-import ContactInput from "../../components/contactInput/ContactInput"
 import "animate.css"
 import "./landingPage.css"
 
