@@ -7,7 +7,7 @@ export default function ProjectContainer(props) {
   return (
     <div className="h-72 bg-blackbg w-80 m-5 pt-3 ">
       <div>
-        <p className="pb-2 cursor-pointer" onClick={() => setShow(true)}>
+        <p className="text-lg pb-2 cursor-pointer hover:text-rose-700 md:text-2xl" onClick={() => setShow(true)}>
           {props.title}
         </p>
         <div className="flex justify-center mt-6">
