@@ -5,11 +5,11 @@ export default function BrewMaster() {
         An online database consisting of random beer recipes for beginners and amateurs. Each beer includes a short description along with ingredients and specific temparatures for brewing.
       </p>
       <br />
-      <a className="hover:text-rose-700" href="https://tdiec00.github.io/Brew-Master-Index/">
+      <a className="hover:text-rose-700" href="https://brew-master-index.netlify.app">
         Deployed Website
       </a>
       <br />
-      <a className="hover:text-rose-700" href="https://github.com/tdiec00/Brew-Master-Index">
+      <a className="hover:text-rose-700" href="https://github.com/tdiec00/brew-master">
         Github Link
       </a>
     </div>
