@@ -24,7 +24,7 @@ export default function SkillsPage() {
           <img class="mx-auto my-4 h-14 w-56" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" alt="heroku"></img>
           <img class="mx-auto my-4 h-14 w-56" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="figma"></img>
           <img class="mx-auto my-4 h-14 w-14 bg-white" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="express" />
-          <img className="mx-auto my-4 h-14 w-56" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+          <img className="mx-auto my-4 h-14 w-56" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs" />
         </div>
         {/* <p>
           JavaScript \\ React \\ Ruby \\ Rails \\ MongoDB \\ Mongoose \\ Express \\ PostgreSQL \\ SQL \\ HTML \\ CSS \\ Tailwind \\ BoostStrap \\ React Styled Components \\ Github \\ Heroku \\ Netlify
