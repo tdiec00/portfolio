@@ -5,7 +5,7 @@ export default function SkillsPage() {
     <div id="skills" className=" text-white text-xl text-center flex flex-col justify-center mb-5 mt-5 h-screen">
       <h1 className="text-2xl  md:text-4xl mb-5">Core Skills</h1>
 
-      <div className="text-lg flex flex-wrap break-normal pl-6 pr-6 md:mx-44 md:text-xl text-center justify-center">
+      <div className="text-lg flex flex-wrap break-normal pl-6 pr-6 md:text-xl text-center justify-center">
         <div className="grid grid-cols-2 md:grid-cols-4 p-14">
           <div>
             <img className="mx-auto my-4 h-14 w-56" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript"></img>
@@ -69,10 +69,6 @@ export default function SkillsPage() {
             <p>NodeJS</p>
           </div>
         </div>
-        {/* <p>
-          JavaScript \\ React \\ Ruby \\ Rails \\ MongoDB \\ Mongoose \\ Express \\ PostgreSQL \\ SQL \\ HTML \\ CSS \\ Tailwind \\ BoostStrap \\ React Styled Components \\ Github \\ Heroku \\ Netlify
-          \\ Node
-        </p> */}
         <br />
         <div className="flex justify-center w-screen">
           <a className="font-medium text-white font-mono text-2xl ... p-5 hover:scale-125 hover:text-rose-700 " href={Resume} target="_blank" rel="noreferrer">
