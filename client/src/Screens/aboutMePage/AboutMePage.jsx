@@ -2,9 +2,9 @@ import Resume from "../../images/Resume.pdf"
 
 export default function AboutMePage() {
   return (
-    <div>
+    <div className="mt-10">
       <div className="flex justify-center w-screen">
-        <a className="font-medium text-white font-mono text-2xl ... p-5 hover:scale-125 hover:text-rose-700 " href={Resume} target="_blank" rel="noreferrer">
+        <a className="font-medium text-white font-mono text-2xl ... p-5 hover:scale-125 hover:text-rose-700" href={Resume} target="_blank" rel="noreferrer">
           Click here to view my Resume
         </a>
       </div>

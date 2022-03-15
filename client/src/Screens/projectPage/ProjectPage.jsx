@@ -10,7 +10,7 @@ import keg from "../../images/keg.png"
 
 export default function ProjectPage() {
   return (
-    <div id="project" className=" text-white  text-center w-screen flex flex-col justify-center text-2xl md:h-screen">
+    <div id="project" className=" text-white  text-center w-screen flex flex-col justify-center text-2xl md:h-screen mb-20">
       <h1 className="text-2xl md:text-4xl mb-10">Projects</h1>
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2">

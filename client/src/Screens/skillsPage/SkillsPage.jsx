@@ -1,7 +1,7 @@
 export default function SkillsPage() {
   return (
-    <div id="skills" className=" text-white text-xl text-center flex flex-col justify-center mb-5 mt-5 h-screen">
-      <h1 className="text-2xl  md:text-4xl mt-5 mb-5">Core Skills</h1>
+    <div id="skills" className=" text-white text-xl text-center flex flex-col justify-center mb-5 mt-20 h-screen">
+      <h1 className="text-2xl  md:text-4xl mt-10">Core Skills</h1>
 
       <div className="text-lg flex flex-wrap break-normal pl-6 pr-6 md:text-xl text-center justify-center">
         <div className="grid grid-cols-2 md:grid-cols-4 p-14">
