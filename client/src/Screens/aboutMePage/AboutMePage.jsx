@@ -19,7 +19,7 @@ export default function AboutMePage(props) {
               <a className="mr-5 " href="https://www.linkedin.com/in/trungdiec/" target="_blank" rel="noreferrer">
                 <AiFillLinkedin className="h-20 w-10 hover:fill-rose-700" />
               </a>
-              <a className="mr-5" href="https://github.com/tdiec00" target="_blank">
+              <a className="mr-5" href="https://github.com/tdiec00" target="_blank" rel="noreferrer">
                 <AiFillGithub className="h-20 w-10 hover:fill-rose-700" />
               </a>
               <button onClick={() => props.setShow(true)}>
