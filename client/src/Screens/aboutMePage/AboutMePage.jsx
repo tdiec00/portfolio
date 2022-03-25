@@ -16,7 +16,7 @@ export default function AboutMePage(props) {
           </p>
           <div className="m-auto flex flex-col justify-center items-center">
             <div className="flex flex-row">
-              <a className="mr-5 " href="https://www.linkedin.com/in/trungdiec/" target="_blank">
+              <a className="mr-5 " href="https://www.linkedin.com/in/trungdiec/" target="_blank" rel="noreferrer">
                 <AiFillLinkedin className="h-20 w-10 hover:fill-rose-700" />
               </a>
               <a className="mr-5" href="https://github.com/tdiec00" target="_blank">
