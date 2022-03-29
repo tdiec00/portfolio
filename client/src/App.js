@@ -6,9 +6,9 @@ import LandingPage from "./Screens/landingPage/LandingPage"
 function App() {
   const [show, setShow] = useState(false)
   return (
-    <div className="text-center bg-iTerm w-screen z-0 h-500">
+    <div className="text-center bg-iTerm w-screen z-0 h-500 lg:h-400">
       <Navbar setShow={setShow} />
-      <div className="h-500">
+      <div>
         <Routes>
           <Route path="/" element={<LandingPage setShow={setShow} show={show} />} />
         </Routes>
