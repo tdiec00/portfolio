@@ -6,7 +6,7 @@ import LandingPage from "./Screens/landingPage/LandingPage"
 function App() {
   const [show, setShow] = useState(false)
   return (
-    <div className="text-center bg-iTerm w-screen z-0 flex flex-col">
+    <div className="text-center bg-iTerm w-screen z-0">
       <Navbar setShow={setShow} />
       <div>
         <Routes>

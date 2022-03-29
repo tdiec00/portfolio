@@ -10,9 +10,9 @@ import keg from "../../images/keg.png"
 
 export default function ProjectPage() {
   return (
-    <div id="project" className=" text-white  text-center w-screen flex flex-col justify-center text-2xl md:h-screen mb-20">
+    <div id="project" className=" text-white  text-center w-screen flex flex-col justify-center text-2xl md:h-screen ">
       <h1 className="text-2xl md:text-4xl mb-10">Projects</h1>
-      <div className="grid grid-cols-1 m-auto md:grid-cols-2">
+      <div className="flex flex-wrap justify-center">
         <ProjectContainer title="What's the Price" link="https://trungs-supermarket.netlify.app/" image={supermarket} alt="black and white supermarket">
           <WhatsThePrice />
         </ProjectContainer>
