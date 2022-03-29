@@ -12,21 +12,19 @@ export default function ProjectPage() {
   return (
     <div id="project" className=" text-white  text-center w-screen flex flex-col justify-center text-2xl md:h-screen mb-20">
       <h1 className="text-2xl md:text-4xl mb-10">Projects</h1>
-      <div className="flex justify-center">
-        <div className="grid md:grid-cols-2">
-          <ProjectContainer title="What's the Price" link="https://trungs-supermarket.netlify.app/" image={supermarket} alt="black and white supermarket">
-            <WhatsThePrice />
-          </ProjectContainer>
-          <ProjectContainer title="Couch Working" link="https://couchworking.netlify.app/" image={couch} alt="black and white couch">
-            <CouchWorking />
-          </ProjectContainer>
-          <ProjectContainer title="Athlethic Performance Index" link="https://athletic-performance-index.netlify.app/" image={exercises} alt="black and white dumbbell">
-            <AthleticPerformanceIndex />
-          </ProjectContainer>
-          <ProjectContainer title="Brew Master" link="https://tdiec00.github.io/Brew-Master-Index/" image={keg} alt="black and white beer keg">
-            <BrewMaster />
-          </ProjectContainer>
-        </div>
+      <div className="grid grid-cols-1 m-auto md:grid-cols-2">
+        <ProjectContainer title="What's the Price" link="https://trungs-supermarket.netlify.app/" image={supermarket} alt="black and white supermarket">
+          <WhatsThePrice />
+        </ProjectContainer>
+        <ProjectContainer title="Couch Working" link="https://couchworking.netlify.app/" image={couch} alt="black and white couch">
+          <CouchWorking />
+        </ProjectContainer>
+        <ProjectContainer title="Athlethic Performance Index" link="https://athletic-performance-index.netlify.app/" image={exercises} alt="black and white dumbbell">
+          <AthleticPerformanceIndex />
+        </ProjectContainer>
+        <ProjectContainer title="Brew Master" link="https://tdiec00.github.io/Brew-Master-Index/" image={keg} alt="black and white beer keg">
+          <BrewMaster />
+        </ProjectContainer>
       </div>
     </div>
   )
