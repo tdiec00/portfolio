@@ -8,8 +8,8 @@ import "./landingPage.css"
 export default function LandingPage(props) {
   return (
     <div id="home" className="text-center">
-      <div className="m-5 h-72 text-left">
-        <h1 className="font-medium text-white font-mono  ... text-4xl   opacity-100 md:ml-2 pt-32">~Welcome to iTrung</h1>
+      <div className="h-72 text-left">
+        <h1 className="font-medium text-white font-mono  ... text-4xl   opacity-100 md:ml-2 pt-36">~Welcome to iTrung</h1>
         <h1 className="text-white text-2xl mt-5 md:ml-2">~cd portfolio</h1>
         <h1 className="text-white text-2xl mt-2 md:ml-2">~npx create-react-app trung-portfolio</h1>
         <div className="flex ... content-center items-center">
