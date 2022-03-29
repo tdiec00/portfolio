@@ -3,9 +3,9 @@ import Resume from "../../images/Resume.pdf"
 
 export default function AboutMePage(props) {
   return (
-    <div className="mt-10">
+    <div id="about" className="mt-10 h-200">
       <div className="flex justify-center w-screen"></div>
-      <div id="about" className=" text-white text-lg md:text-xl text-center flex flex-col justify-center h-3/4 ">
+      <div className=" text-white text-lg md:text-xl text-center flex flex-col justify-center h-3/4 ">
         <h1 className="text-2xl md:text-4xl  pb-5 pt-10">About Me</h1>
         <div className=" flex flex-wrap break-normal w-5/6 md:w-300 pb-10 mb-20 m-auto">
           <p className="pl-6 pr-6 break-normal ">

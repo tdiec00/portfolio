@@ -1,6 +1,6 @@
 export default function SkillsPage() {
   return (
-    <div id="skills" className=" text-white text-xl text-center flex flex-col justify-center mb-5 mt-20 h-screen">
+    <div id="skills" className=" text-white text-xl text-center flex flex-col justify-center mb-5 h-200 m-auto">
       <h1 className="text-2xl  md:text-4xl mt-10">Core Skills</h1>
 
       <div className="text-lg flex flex-wrap break-normal pl-6 pr-6 md:text-xl text-center justify-center">

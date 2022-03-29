@@ -11,10 +11,15 @@ module.exports = {
         iTerm: "url('../src/images/iterm-image.jpeg')",
       },
       height: {
+        100: "20rem",
         128: "30rem",
+        200: "60rem",
+        300: "120rem",
+        500: "275rem",
       },
       width: {
         300: "50rem",
+        100: "25rem",
       },
     },
   },
